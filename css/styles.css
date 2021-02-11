@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,600&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* Component */
+@import "component/status-bar.css";
+@import "component/nav-bar.css";
+
+/* Screens */
+@import "screens/login.css";
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
