@@ -5,10 +5,13 @@
 /* Component */
 @import "component/status-bar.css";
 @import "component/nav-bar.css";
+@import "component/screen-header.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
+  color: #2e363e;
   font-family: "Source Sans Pro", sans-serif;
 }
