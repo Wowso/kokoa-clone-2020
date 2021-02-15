@@ -2,4 +2,8 @@
   --yellow: #fae100;
   --margin-header: 80px;
   --horizontal-space: 20px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.1);
+  --main-color-gray: rgba(0, 0, 0, 0.3);
+  --main-color-lightgray: rgba(0, 0, 0, 0.2);
+  --chat-background: rgb(255, 204, 185);
 }
