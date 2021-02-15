@@ -44,5 +44,4 @@
 
 .nav__btn i:hover {
   animation: rainbow 1s ease-in-out infinite;
-  -webkit-animation: rainbow 1s ease-in-out infinite;
 }

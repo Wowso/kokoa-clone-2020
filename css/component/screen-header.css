@@ -17,15 +17,6 @@
   font-size: 10px;
 }
 
-@keyframes rotateCog {
-  from {
-    text-replace: none;
-  }
-  to {
-    transform: rotateZ(360deg);
-  }
-}
-
 .screen-header__icons .fa-cog:hover {
   animation: rotateCog 1.5s ease-in-out infinite;
 }
