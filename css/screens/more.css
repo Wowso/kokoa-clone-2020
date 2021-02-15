@@ -21,7 +21,7 @@
   align-items: center;
 }
 
-.more-suggestions__icon-image {
+.more-suggestions__icon-image:first-child {
   width: 60px;
   height: 60px;
   background-color: var(--yellow);
@@ -35,4 +35,22 @@
 .more-suggestions__icon-image i {
   font-size: 25px;
   color: white;
+}
+
+.more-suggestions__icon:nth-child(2) .more-suggestions__icon-image {
+  background-color: white;
+}
+.more-suggestions__icon:nth-child(2) .more-suggestions__icon-image i {
+  color: blue;
+}
+.more-suggestions__icon:nth-child(3) .more-suggestions__icon-image {
+  background-color: blue;
+  font-size: 35px;
+}
+.more-suggestions__icon:nth-child(3) i {
+  background-color: blue;
+  font-size: 35px;
+}
+.more-suggestions__icon:last-child .more-suggestions__icon-image {
+  background-color: red;
 }

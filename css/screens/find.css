@@ -125,3 +125,21 @@
   border-bottom: var(--main-border);
   margin: 10px 0px;
 }
+
+.open-post__members img {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.open-post__members img:hover {
+  opacity: 0.7;
+}
+
+.open-post__photo img {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.open-post__photo img:hover {
+  opacity: 0.7;
+}

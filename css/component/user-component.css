@@ -21,6 +21,7 @@
 .user-component__avatar {
   border-radius: 35%;
   margin-right: 20px;
+  object-fit: cover;
 }
 
 .user-component__title {

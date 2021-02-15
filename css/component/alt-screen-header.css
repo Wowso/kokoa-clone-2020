@@ -7,7 +7,6 @@
 }
 
 .alt-header__column {
-  width: 33%;
 }
 
 .alt-header__title {
@@ -20,7 +19,7 @@
 }
 
 .alt-header__column:nth-child(2) {
-  margin-right: auto;
+  margin-left: 43px;
   display: flex;
   justify-content: center;
 }
