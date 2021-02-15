@@ -1,5 +1,3 @@
-@import "/css/animation.css";
-
 .screen-header {
   display: flex;
   justify-content: space-between;
@@ -15,6 +13,15 @@
 .screen-header__icons span {
   margin-left: 20px;
   font-size: 10px;
+}
+
+@keyframes rotateCog {
+  from {
+    text-replace: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
 }
 
 .screen-header__icons .fa-cog:hover {

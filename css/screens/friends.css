@@ -1,5 +1,3 @@
-@import "/css/animation.css";
-
 #friends-display-link {
   display: flex;
   width: 100%;
@@ -40,6 +38,15 @@
 .friends-screen {
   padding: 0px var(--horizontal-space);
 }
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 
 #splash-screen {
   background-color: var(--yellow);
@@ -53,6 +60,17 @@
   font-size: 64px;
   animation: hideSplashScreen 0.4s ease-in-out forwards;
   animation-delay: 1s;
+}
+
+@keyframes appearBtnAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
 }
 
 #friends-body .nav__btn {

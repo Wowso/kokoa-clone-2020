@@ -1,5 +1,3 @@
-@import "/css/animation.css";
-
 #chat-screen {
   background-color: var(--chat-background);
   height: 500vh;
@@ -16,6 +14,17 @@
   box-sizing: border-box;
   top: 15px;
   background-color: var(--chat-background);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .main-chat {
